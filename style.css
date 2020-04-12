@@ -158,7 +158,6 @@ body {
 
 .container2 .product {
     padding-top: 120px;
-
 }
 
 .container2 .product.container2 .characteristic {}
@@ -168,6 +167,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     text-decoration: none;
+    float: left;
 }
 
 .container2 .characteristic-active {
@@ -180,21 +180,27 @@ body {
 
 .container2 .all-products {}
 
-.container2 .all-products a {
+.all-products a {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
     text-transform: uppercase;
+    overflow: hidden;
+    text-decoration: none;
+    padding-bottom: 0;
 }
 
 .container2 .products {
+    clear: both;
+    padding-top: 65px;
     padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
 }
 
-.container2 .products a {}
+.inline {
+    float: right;
+}
 
 .container2 img[alt*="product"] {
     width: 270px;
@@ -275,24 +281,87 @@ body {
     margin-top: 60px;
     margin-left: 52px;
 }
+
 /*fourth */
 .container4 {
+    height: 1108px;
+    width: 1366px;
+    margin: 0 auto;
 }
+
 .container4 .product-photo {
+    margin-top: 120px;
 }
+
 .container4 .characteristic {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
 }
-.container4 .characteristic-active {
+
+.pro-photo {
+    padding-top: 64px;
+    width: 1170px;
+    height: 770px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
-.container4 .all-products {
-}
-.container4 .all-products a {
-}
-.container4 .product-photo {
-}
+
 .container4 .product-photo-link {
+    list-style-type: none;
 }
-.container4 .photo {
+
+.container4 img[alt="photo1"] {
+
+    height: 370px;
+    width: 370px;
 }
-.container4 img {
+
+.container5 {
+    width: 1366px;
+    margin: 0 auto;
 }
+
+.container5 .hott-deal {
+    background-image: url(img/container5.jpg);
+    height: 800px;
+}
+
+.container5 .text5 {
+    padding-top: 287px;
+    padding-left: 98px;
+}
+
+.container5 .text-hot {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container5 .text-header5 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.container5 .text-main {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 458px;
+    height: 38px;
+    margin-bottom: 48px;
+    }
+
+.container5 .paggination5 {}
+
+.container5 .paggination5 .paggination5-circle {}
+
+.container5 .paggination5 .paggination5-circle {}
+
+.container5 .paggination5 .paggination5-circle
