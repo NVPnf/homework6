@@ -118,6 +118,8 @@ body {
     text-decoration: none;
 }
 
+.button6:hover:after,
+.button3:hover:after,
 .button:hover:after {
     content: ">";
 }
@@ -160,8 +162,6 @@ body {
     padding-top: 120px;
 }
 
-.container2 .product.container2 .characteristic {}
-
 .container2 .characteristic a {
     color: #6c6c6c;
     font-size: 36px;
@@ -177,8 +177,6 @@ body {
     text-decoration: none;
     border-bottom: 3px solid #212121;
 }
-
-.container2 .all-products {}
 
 .all-products a {
     color: #212121;
@@ -217,8 +215,6 @@ body {
 .container3 .detailed {
     display: flex;
 }
-
-.container3 .product-detailed {}
 
 .container3 .text-product-1-detailed {
     height: 683px;
@@ -319,6 +315,7 @@ body {
     width: 370px;
 }
 
+/*fifth */
 .container5 {
     width: 1366px;
     margin: 0 auto;
@@ -382,40 +379,101 @@ body {
     margin-bottom: 0;
 }
 
+/*sixth */
 .container6 {
     margin: 0 auto;
     width: 1366px;
 }
 
+.product-photo6 {
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+    width: 1170px;
+}
+
 .container6 .product-photo6 {
-    height: 810px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: -150px;
+}
+
+.text-product-6-detailed {
+    background-image: url(img/cont6-prod1.jpg);
+    height: 570px;
+    width: 570px;
+}
+
+.text-exclusive6 {
+    padding-top: 120px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-left: 38px;
+}
+
+.text-header-detailed6 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 38px;
+}
+
+.text-main-cont6 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    width: 332px;
+    padding-left: 38px;
+    margin-bottom: 10px;
 }
 
 .container6 .prod-foto {
-    padding-top: 120px;
-    padding-left: 98px;
-    width: 1170px;
-    height: 570px;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 570px;
+    margin-top: 1%;
 }
 
 .container6 .prod-foto-link6 {
     list-style-type: none;
 }
 
-.container6 .prod-foto-link6.container6 .photo {}
-
 .container6 img[alt="photo6"] {
     height: 270px;
     width: 270px;
 }
 
+.button6 {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-align: center;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 38px;
+}
+
+/*footer */
 .container7 {
     width: 1366px;
     margin: 0 auto;
-    height: 1000px
+    height: 1000px;
+    clear: both;
 }
 
 .column {
@@ -424,8 +482,6 @@ body {
     padding-left: 98px;
     padding-right: 98px;
 }
-
-.container7 .contacts {}
 
 .container7 .text-contacts {
     height: 516px;
@@ -451,7 +507,6 @@ body {
     line-height: 72px;
     text-transform: uppercase;
     width: 407px;
-
 }
 
 .container7 .text-main {
@@ -462,16 +517,10 @@ body {
     margin-bottom: 33px;
 }
 
-.container7 .Ios {}
-
 .container7 .Ios img {
     width: 135px;
     height: 40px;
 }
-
-.container7 .Gplay {}
-
-.container7 .Gplay img {}
 
 .container7 footer {
     background-color: #f7f7f7;
@@ -500,24 +549,20 @@ body {
     width: 221px;
 }
 
-.container7 br {}
-
 .container7 .useful {
     display: block;
     width: 40%;
+
 }
 
-.container7 .useful .contactus {}
-
 .container7 .useful-ul {
+
     list-style-type: none;
     display: flex;
     height: 132px;
     flex-flow: column wrap;
     line-height: 40px;
 }
-
-.container7 li {}
 
 .container7 .useful-link {
     color: #212121;
@@ -542,16 +587,9 @@ body {
     width: 363px;
 }
 
-.container7 .intouch .contactus {}
-
-.container7 .intouch p {}
-
-.container7 .e-mail {}
-
 .container7 input {
     margin-top: 30px;
     margin-left: 5px;
-
 }
 
 .container7 input[type="email"] {
@@ -566,10 +604,6 @@ body {
     margin-top: 60px;
 }
 
-.container7 .copyright-text {}
-
-.container7 .copyright-text p {}
-
 .social {
     display: flex;
 }
@@ -582,12 +616,6 @@ body {
     background-color: #6c6c6c;
     text-align: center;
 }
-
-.container7 .social .paggination-circle {}
-
-.container7 .social .paggination-circle {}
-
-.container7 .social .paggination-circle.container7 div.terms {}
 
 .container7 a.terms {
     text-decoration: none;
