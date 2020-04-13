@@ -222,9 +222,7 @@ body a {
     z-index: 4;
 }
 
-.slider2-image1 a {
-  
-}
+.slider2-image1 a {}
 
 .slider2-arrowinside a {
     position: absolute;
@@ -245,7 +243,6 @@ body a {
     font-weight: 700;
     line-height: 29.88px;
     z-index: -1
- 
 }
 
 .slider2-textinsid {
@@ -261,29 +258,27 @@ body a {
 
 .slider2-images a:hover {
     opacity: 0.1;
-  }
+}
 
 .slider2-images a:active {
- box-shadow: 5px 2px 5px 1px #212121;
-}
-/*third*/
-.container3 {
-    width: 1366px;
-    height: 683px;
-    margin: 0 auto;
+    box-shadow: 5px 2px 5px 1px #212121;
 }
 
-.container3 .detailed {
+/*third*/
+
+.slider3 {
     display: flex;
 }
 
-.container3 .text-product-1-detailed {
+.slider3-prod {
     height: 683px;
     width: 683px;
     background-image: url(img/cont3back1.jpg);
+    
+
 }
 
-.text-exclusive {
+.slider3-exclusive {
     color: #1e88e5;
     font-size: 18px;
     font-weight: 700;
@@ -292,28 +287,26 @@ body a {
     padding-top: 228px;
 }
 
-.text-exclusive,
-.text-header-detailed,
-.text-main-cont3 {
+.slider3-exclusive,
+.slider3-header,
+.slider3-main {
     padding-left: 52px;
 }
 
-.text-header-detailed {
+.slider3-header {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
 }
 
-.text-main-cont3 {
+.slider3-main {
     font-size: 14px;
     font-weight: 300;
     line-height: 24.04px;
-    display: block;
-    height: 36px;
-    width: 374px;
+    width: 50%;
 }
 
-.container3 .text-product-2-detailed {
+.slider3-prod2 {
     height: 683px;
     width: 683px;
     background-image: url(img/cont3back2.jpg);
@@ -340,74 +333,83 @@ body a {
 }
 
 /*fourth */
-.container4 {
-    height: 1108px;
+.slider4 {
+   
+}
+
+.slider4-images {
+    clear: both;
+     height: 1108px;
     width: 1366px;
     margin: 0 auto;
 }
-
-.container4 .product-photo {
+.slider4-head {
     margin-top: 120px;
 }
-
-.container4 .characteristic {
+.slider4-header {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
     float: left;
 }
 
-.pro-photo {
+.slider4-images {
     padding-top: 64px;
     width: 1170px;
     height: 770px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 120px;
 }
 
-.container4 .product-photo-link {
-    list-style-type: none;
-}
-
-.container4 img[alt="photo1"] {
-
+.slider4 img[alt*="slider4"] {
     height: 370px;
     width: 370px;
 }
 
+.slider4-images a:hover {
+   outline: 2px solid #ccc;
+}
+.slider4-images a:active {
+   outline:  2px solid #212121;
+}
+
 /*fifth */
-.container5 {
+.slider5 {
     width: 1366px;
     margin: 0 auto;
     position: relative;
 }
 
-.container5 .hott-deal {
+.slider5-text {
     background-image: url(img/container5.jpg);
     height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-.container5 .text5 {
+.slider5-text {
     padding-top: 287px;
     padding-left: 98px;
 }
 
-.container5 .text-hot {
+.slider5-hot{
     color: #e53935;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.container5 .text-header5 {
+.slider5-header {
     color: #212121;
     font-size: 62px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.container5 .text-main {
+.slider5-main {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
@@ -417,14 +419,14 @@ body a {
     margin-bottom: 48px;
 }
 
-.container5 .paggination5 {
+.paggination-slider5 {
     position: absolute;
     bottom: 19px;
     text-align: center;
     width: 1366px;
 }
 
-.container5 .paggination5 .paggination5-circle {
+.paggination-slider5-circle {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -433,7 +435,7 @@ body a {
     margin: 5px;
 }
 
-.container5 .paggination5 .paggination5-circle-active {
+.paggination-circle-active {
     width: 40px;
     height: 40px;
     background-color: #212121;
@@ -441,25 +443,21 @@ body a {
 }
 
 /*sixth */
-.container6 {
-    margin: 0 auto;
-    width: 1366px;
-}
 
-.product-photo6 {
+.slider6 {
     display: flex;
     justify-content: space-between;
     height: 800px;
     width: 1170px;
 }
 
-.container6 .product-photo6 {
+.slider6 {
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: -150px;
 }
 
-.text-product-6-detailed {
+.slider6-images {
     background-image: url(img/cont6-prod1.jpg);
     height: 570px;
     width: 570px;
