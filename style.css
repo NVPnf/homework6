@@ -222,8 +222,6 @@ body a {
     z-index: 4;
 }
 
-.slider2-image1 a {}
-
 .slider2-arrowinside a {
     position: absolute;
     top: 20%;
@@ -274,8 +272,6 @@ body a {
     height: 683px;
     width: 683px;
     background-image: url(img/cont3back1.jpg);
-    
-
 }
 
 .slider3-exclusive {
@@ -333,9 +329,6 @@ body a {
 }
 
 /*fourth */
-.slider4 {
-   
-}
 
 .slider4-images {
     clear: both;
@@ -387,12 +380,10 @@ body a {
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .slider5-text {
-    padding-top: 287px;
-    padding-left: 98px;
+     padding-left: 98px;
 }
 
 .slider5-hot{
@@ -400,6 +391,7 @@ body a {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    padding-top: 287px;
 }
 
 .slider5-header {
@@ -414,10 +406,30 @@ body a {
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    width: 458px;
-    height: 38px;
-    margin-bottom: 48px;
+    width: 332px;
+    padding-left: 38px;
+    margin-bottom: 20px;
+    
 }
+.button5 {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-align: center;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 38px;
+}
+
 
 .paggination-slider5 {
     position: absolute;
@@ -457,13 +469,13 @@ body a {
     margin-bottom: -150px;
 }
 
-.slider6-images {
+.slider6-mainpic {
     background-image: url(img/cont6-prod1.jpg);
     height: 570px;
     width: 570px;
 }
 
-.text-exclusive6 {
+.slider6-exclusive {
     padding-top: 120px;
     color: #1e88e5;
     font-size: 18px;
@@ -474,33 +486,32 @@ body a {
     padding-left: 38px;
 }
 
-.text-header-detailed6 {
+.slider6-header {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
     padding-left: 38px;
 }
 
-.text-main-cont6 {
+.slider6-main {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     line-height: 24.04px;
     width: 332px;
     padding-left: 38px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.container6 .prod-foto {
+
+
+.slider6-images {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     height: 570px;
+    width: 570px;
     margin-top: 1%;
-}
-
-.container6 .prod-foto-link6 {
-    list-style-type: none;
 }
 
 .container6 img[alt="photo6"] {
@@ -508,6 +519,13 @@ body a {
     width: 270px;
 }
 
+
+.slider6-images a:hover {
+   outline: 2px solid #ccc;
+}
+.slider6-images a:active {
+   outline:  2px solid #212121;
+}
 .button6 {
     box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
     border-radius: 23px;
