@@ -39,27 +39,31 @@ body a:active {
     margin-right: 98px;
     margin-left: 98px;
     margin-top: 40px;
-    
-    
+
+
 }
+
 .navbar-sticky a {
-     color: #8c8c8c;
+    color: #8c8c8c;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 13px;
 }
+
 .navbar-sticky .stickymenu-logo {
     float: left;
     padding-top: 40px;
 }
+
 .navbar-sticky li {
     list-style-type: none;
     float: right;
     padding-top: 40px;
-    
-} 
+
+}
+
 /*sticky menu*/
 .container {
     width: 1366px;
@@ -678,6 +682,14 @@ body a:active {
 }
 
 .footer-maintext {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    width: 221px;
+}
+
+.mailto {
     color: #212121;
     font-size: 14px;
     font-weight: 300;
