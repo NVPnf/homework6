@@ -38,6 +38,7 @@ body a:active {
     background-color: #ffffff;
     margin-right: 98px;
     margin-left: 98px;
+    margin-top: 40px;
     
     
 }
@@ -51,10 +52,12 @@ body a:active {
 }
 .navbar-sticky .stickymenu-logo {
     float: left;
+    padding-top: 40px;
 }
 .navbar-sticky li {
     list-style-type: none;
     float: right;
+    padding-top: 40px;
     
 } 
 /*sticky menu*/
@@ -65,7 +68,7 @@ body a:active {
 
 .slider1 {
     height: 800px;
-    background-image: url(img/slider-img.jpg);
+    background-image: url(../img/slider-img.jpg);
     position: relative;
 }
 
@@ -165,7 +168,7 @@ body a:active {
 .button5:hover:after,
 .button3:hover:after,
 .button:hover:after {
-    content: url(img/arrow.svg);
+    content: url(../img/arrow.svg);
     display: block;
     position: absolute;
     left: 180px;
@@ -206,7 +209,7 @@ body a:active {
 }
 
 .slider2-header {
-    padding-top: 120px;
+    padding-top: 50px;
     display: flex;
     justify-content: flex-start;
     margin-right:
@@ -320,7 +323,7 @@ body a:active {
 .slider3-prod {
     height: 683px;
     width: 683px;
-    background-image: url(img/cont3back1.jpg);
+    background-image: url(../img/cont3back1.jpg);
 }
 
 .slider3-exclusive {
@@ -354,7 +357,7 @@ body a:active {
 .slider3-prod2 {
     height: 683px;
     width: 683px;
-    background-image: url(img/cont3back2.jpg);
+    background-image: url(../img/cont3back2.jpg);
 }
 
 .button3 {
@@ -430,7 +433,7 @@ body a:active {
 }
 
 .slider5-text {
-    background-image: url(img/container5.jpg);
+    background-image: url(../img/container5.jpg);
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -525,7 +528,7 @@ body a:active {
 }
 
 .slider6-mainpic {
-    background-image: url(img/cont6-prod1.jpg);
+    background-image: url(../img/cont6-prod1.jpg);
     height: 570px;
     width: 570px;
 }
@@ -607,7 +610,7 @@ body a:active {
     height: 516px;
     padding-left: 98px;
     padding-right: 98px;
-    background-image: url(img/cont7-back.jpg);
+    background-image: url(../img/cont7-back.jpg);
     background-size: cover;
 }
 
@@ -764,7 +767,7 @@ body a:active {
     height: 48px;
     width: 48px;
     border-left: none;
-    background-image: url(img/submit.png);
+    background-image: url(../img/submit.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: white;
