@@ -29,15 +29,35 @@ body a:active {
     text-shadow: 2px 2px 2px #ccc;
 }
 
-/*sticky menu
-.navbar-cticky {
+/*sticky menu*/
+.navbar-sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 100;
+    background-color: #ffffff;
+    margin-right: 98px;
+    margin-left: 98px;
+    
+    
 }
-*/
-
+.navbar-sticky a {
+     color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+.navbar-sticky .stickymenu-logo {
+    float: left;
+}
+.navbar-sticky li {
+    list-style-type: none;
+    float: right;
+    
+} 
+/*sticky menu*/
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -241,14 +261,16 @@ body a:active {
     text-align: center;
     z-index: 4;
 }
-.slider2-images img[alt="arrow"]{
+
+.slider2-images img[alt="arrow"] {
     height: 20px;
     width: 20px;
     padding-top: 5px;
 }
+
 .slider2-arrowinside a {
     position: absolute;
-    top: 20%; 
+    top: 20%;
     left: 45%;
     box-shadow: 1px 2px 5px 1px #ccc;
     border-radius: 50px;
