@@ -83,14 +83,141 @@ body a:active {
 
 .prod-slider1-text {
 	display: block;
-	outline: 1px solid black;
 	width: @widthAll / 2;
 	float: right;
+	text-align: center;
 }
 
+.prod-header {
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 110px;
+}
+
+.prod-hot {
+	color: #e53935;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48.02px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}
+
+.prod-price {
+	color: #212121;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.prod-price .mainprice {
+	font-size: 72px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.prod-text {
+	color: #212121;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24.01px;
+	letter-spacing: 0.4px;
+	width: 499px;
+	margin: 50px auto 0;
+}
+
+.button {
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	border-radius: 35px;
+	background-color: #f44336;
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24.01px;
+	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	text-align: center;
+	width: 510px;
+	height: 71px;
+	line-height: 71px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.button:hover {
+	position: relative;
+
+}
+
+.button:hover:after {
+	content: url(../img/arrow-white.jpg);
+	display: block;
+	position: absolute;
+	left: 400px;
+	bottom: 0px;
+}
 
 .prod-slider2 {
 	clear: both;
+	width: @widthAll;
+	margin: 0 auto;
+}
+
+.slider4-header {
+	margin-top: 120px;
+	margin-left: 98px;
+	margin-right: 98px;
+}
+
+.slider4-header {
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+	float: left;
+}
+
+.explore {
+	clear: both;
+	float: right;
+	margin-top: -10px;
+}
+
+.explore a {
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-decoration: none;
+	padding-bottom: 0;
+}
+
+.prod-slider2-images {
+	padding-top: 64px;
+	width: 370px+370px+370px+60px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 0 98px 120px;
+
+}
+
+.prod-slider2-images img[alt*="image"] {
+	height: 370px;
+	width: 370px;
+}
+
+.prod-slider2-images a:hover {
+	outline: 2px solid #ccc;
+}
+
+.prod-slider2-images a:active {
+	outline: 2px solid #212121;
+}
+
+.product-photo-link {
+	justify-content: space-between;
 }
 
 /*footer*/
