@@ -1,3 +1,6 @@
+@widthAll: 1366px;
+@backgroundHeader: #f5f5f5;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -34,15 +37,18 @@ body a:active {
 	text-shadow: 2px 2px 2px #ccc;
 }
 
-/*menu index*/
+.products {
+	width: @widthAll;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
 .header {
-	margin-top: 63px;
-	padding-left: 98px;
+	padding-top: 63px;
 }
 
 .header .menu {
 	float: right;
-	padding-right: 98px;
 }
 
 .header .menu-li {
@@ -69,88 +75,195 @@ body a:active {
 	color: #212121;
 }
 
-.contacts {
-	width: 1366px;
-	margin: 0 auto;
-	min-height: 100%;
+.products-menu {
+	clear: both;
+	height: 60px;
+	background-color: #f4f4f4;
+	margin-top: 27px;
+	padding-left: 25%;
+	padding-top: 10px;
 }
 
-/*header*/
-.contacts-header {
-	height: 360px;
-	background-color: #f5f5f5;
-	overflow: hidden;
+.prod-li {
+	float: left;
+
 }
 
-.contacts-header-text {
-	color: #212121;
-	font-size: 62px;
-	font-weight: 100;
-	margin-left: 98px;
-	margin-top: 120px;
-}
-
-/*main*/
-.main {
-	
-}
-
-.adress {
-	padding-left: 98px;
-	padding-right: 98px;
-	display: flex;
-	justify-content: space-around;
-}
-
-.adress-box {
+.prod-a {
 	display: block;
-	height: 270px;
-	width: 370px;
-	outline: 1px solid #9c9c9c;
-	text-align: center;
-	padding-top: 48px;
-	margin-top: 73px;
-	margin-bottom: 120px;
+	margin: 15px 15px;
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
 }
 
-.adress-point-header {
+.prod-a-active {
 	color: #212121;
+}
+
+.prod-slider1-pic {
+	display: block;
+	width: @widthAll / 2;
+	float: left;
+	text-align: center;
+}
+
+
+.prod-slider1-text {
+	display: block;
+	width: @widthAll / 2;
+	float: right;
+	text-align: center;
+}
+
+.prod-header {
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+	margin-top: 90px;
+
+}
+
+.prod-hot {
+	color: #e53935;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48.02px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+
+}
+
+.prod-price {
+	color: #212121;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.prod-price .mainprice {
+	font-size: 72px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.prod-text {
+	color: #212121;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24.01px;
+	letter-spacing: 0.4px;
+	width: 499px;
+	margin: 50px auto 0;
+}
+
+.button {
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	border-radius: 35px;
+	background-color: #f44336;
+	color: #ffffff;
 	font-size: 22px;
 	font-weight: 700;
-	line-height: 29.88px;
+	line-height: 24.01px;
 	text-transform: uppercase;
+	letter-spacing: 3.6px;
+	text-align: center;
+	width: 510px;
+	height: 71px;
+	line-height: 71px;
+	display: inline-block;
+	text-decoration: none;
 }
 
-.adress-textinsid {
-	color: #6c6c6c;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 25px;
+.button:hover {
+	position: relative;
 }
 
-.text a {
+.button:hover:after {
+	content: url(../img/arrow-white.jpg);
+	display: block;
+	position: absolute;
+	left: 400px;
+	bottom: 0px;
+}
+
+.prod-slider2 {
+	clear: both;
+	width: @widthAll;
+	margin: 0 auto;
+}
+
+.slider4-header {
+	margin-top: 120px;
+	margin-left: 98px;
+	margin-right: 98px;
+}
+
+.slider4-header {
 	color: #212121;
+	font-size: 36px;
 	font-weight: 700;
-	font-size: 14px;
-	line-height: 25px;
+	float: left;
 }
 
-.text {
+.explore {
+	clear: both;
+	float: right;
+	margin-top: -10px;
+}
+
+.explore a {
 	color: #212121;
+	font-size: 18px;
 	font-weight: 700;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-decoration: none;
+	padding-bottom: 0;
+	margin-right: 98px
 }
 
+.prod-slider2-images {
+	padding-top: 64px;
+	width: 1170px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-left: 98px;
+}
+
+.prod-slider2-images img[alt*="image"] {
+	height: 370px;
+	width: 370px;
+}
+
+.prod-slider1 a:hover,
+.prod-slider2-images a:hover {
+	outline: 2px solid #ccc;
+}
+
+.prod-slider1 a:active,
+.prod-slider2-images a:active {
+	outline: 2px solid #212121;
+}
+
+.product-photo-link {
+	justify-content: space-between;
+}
+
+/*footer*/
 .clr {
 	height: 384px;
 	display: block;
 	clear: both;
 }
 
-/*footer index*/
 .footer {
 	background-color: #f7f7f7;
 	height: 384px;
-	width: 1366px;
+	width: @widthAll;
 	margin: -384px auto 0;
 }
 
