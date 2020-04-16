@@ -75,11 +75,41 @@ body a:active {
 	color: #212121;
 }
 
+.products-menu {
+	clear: both;
+	height: 60px;
+	background-color: #f4f4f4;
+	margin-top: 27px;
+	padding-left: 25%;
+	padding-top: 10px;
+}
+
+.prod-li {
+	float: left;
+
+}
+
+.prod-a {
+	display: block;
+	margin: 15px 15px;
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}
+
+.prod-a-active {
+	color: #212121;
+}
+
 .prod-slider1-pic {
 	display: block;
 	width: @widthAll / 2;
 	float: left;
+	text-align: center;
 }
+
 
 .prod-slider1-text {
 	display: block;
@@ -92,7 +122,8 @@ body a:active {
 	color: #212121;
 	font-size: 36px;
 	font-weight: 700;
-	margin-top: 110px;
+	margin-top: 90px;
+
 }
 
 .prod-hot {
@@ -102,6 +133,7 @@ body a:active {
 	line-height: 48.02px;
 	text-transform: uppercase;
 	letter-spacing: 1.8px;
+
 }
 
 .prod-price {
@@ -147,7 +179,6 @@ body a:active {
 
 .button:hover {
 	position: relative;
-
 }
 
 .button:hover:after {
@@ -191,16 +222,16 @@ body a:active {
 	overflow: hidden;
 	text-decoration: none;
 	padding-bottom: 0;
+	margin-right: 98px
 }
 
 .prod-slider2-images {
 	padding-top: 64px;
-	width: 370px+370px+370px+60px;
+	width: 1170px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	margin: 0 98px 120px;
-
+	margin-left: 98px;
 }
 
 .prod-slider2-images img[alt*="image"] {
@@ -208,10 +239,12 @@ body a:active {
 	width: 370px;
 }
 
+.prod-slider1 a:hover,
 .prod-slider2-images a:hover {
 	outline: 2px solid #ccc;
 }
 
+.prod-slider1 a:active,
 .prod-slider2-images a:active {
 	outline: 2px solid #212121;
 }
