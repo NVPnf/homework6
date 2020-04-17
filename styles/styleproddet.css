@@ -130,6 +130,14 @@ body a:active {
 	width: 370px;
 }
 
+.proddet-pic img[alt*="image"]:hover {
+	outline: 1px solid #6c6c6c;
+}
+
+.proddet-pic a:active {
+	outline: 1px solid #212121;
+}
+
 .refresh {
 	clear: both;
 	display: block;

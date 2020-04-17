@@ -56,13 +56,16 @@ body a:active {
 	padding-top: 40px;
 }
 
+.stickymenu-menu {
+	margin-left: 45%;
+}
+
 .navbar-sticky li {
 	list-style-type: none;
-	float: right;
+	float: left;
 	padding-top: 40px;
 }
 
-/*sticky menu*/
 .container {
 	width: 1366px;
 	margin: 0 auto;
@@ -199,6 +202,7 @@ body a:active {
 	margin-bottom: 0;
 }
 
+.paggination-slider5-circle:hover,
 .paggination-slider1 .paggination-circle:hover {
 	background-color: #212121;
 }
